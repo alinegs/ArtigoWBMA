@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.1)  27 AUG 2014 17:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.1)  27 AUG 2014 17:55
 entering extended mode
 **C:/Users/Aline/Documents/GitHub/ArtigoWBMA/wbma.tex
 (C:/Users/Aline/Documents/GitHub/ArtigoWBMA/wbma.tex
@@ -784,15 +784,12 @@ Overfull \hbox (13.46706pt too wide) in paragraph at lines 42--55
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
+[7]
 Overfull \hbox (56.49767pt too wide) in paragraph at lines 66--82
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7] [8] <figuras/visibilidade.png, id=35, 371.88937pt x 274.02374pt>
+[8] <figuras/visibilidade.png, id=35, 371.88937pt x 274.02374pt>
 File: figuras/visibilidade.png Graphic file (type png)
 
 <use figuras/visibilidade.png>
@@ -867,7 +864,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  6007 strings out of 493921
  86443 string characters out of 3144877
- 179052 words of memory out of 3000000
+ 174052 words of memory out of 3000000
  9120 multiletter control sequences out of 15000+200000
  36449 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -881,7 +878,7 @@ iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 e1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on wbma.pdf (12 pages, 185285 bytes).
+Output written on wbma.pdf (12 pages, 185690 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
