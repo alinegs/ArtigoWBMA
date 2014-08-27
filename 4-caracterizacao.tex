@@ -1,0 +1,95 @@
+\section{Caracterização do Contrato do Estudo de Caso}
+
+\subsection{O Projeto}
+
+O IPHAN é autarquia federal responsável pela gestão de diversos processos de preservação do patrimônio cultural, como por exemplo,ações para sua identificação, proteção, gestão e fomento. Decorrente
+de suas atribuições, o órgão produz uma grande quantidade de informações fragmentadas em termos territoriais e temáticos. Nos últimos quatro anos, o IPHAN elaborou uma metodologia
+para definir os processos de cadastro, inventário e gestão do patrimônio cultural material. Essa metodologia tem por objetivo geral abordar o Patrimônio Cultural de forma integrada, sistêmica
+e estratégica, conforme detalhado a seguir:
+
+\begin{itemize}
+\item Integrada: cobrindo todas as categoriais do patrimônio material;
+\item Sistêmica: estabelecendo moldes a serem utilizados nas diversas etapas de ações de preservação, possibilitando o "diálogo" e troca de informações entre áreas e etapas de trabalho;
+\item Estratégica: considerando o mapeamento, a organização e a disponibilização de informações sobre o patrimônio como base para a construção de políticas públicas integradas - com outros parceiros - e de planos de preservação e desenvolvimento das regiões onde se inserem os bens.
+\end{itemize}
+
+Em termos específicos, a metodologia buscou, em primeiro lugar, mapear os procedimentos necessários para a execução das ações de cadastro, proteção, normatização e fiscalização de bens culturais de natureza material, indicando adicionalmente os dados a serem coletados. Este mapeamento contou com a participação de representantes das Superintendências e Escritórios Técnicos, que, por meio de Grupos de Trabalho, analisaram, de forma crítica, as metodologias até então existentes.
+
+A revisão dos processos levou à formulação da nova metodologia que, por sua vez, permitiu a otimização das atividades de cadastro de sítios históricos e de bens tombados isoladamente e gerou a normalização das ações de fiscalização. O resultado desse trabalho produziu um conjunto de fichas e procedimentos específicos com demandas para cadastro de dados textuais, geográficos e imagens.
+
+Há um entendimento no IPHAN de que é necessária a formação de uma rede de proteção fomentada pelo SNPC que consolide o grande volume de informações atualmente produzido por suas unidades administrativas, composto de 27 Superintendências, 30 escritórios técnicos, 4 Unidades Especiais e 2 Parques Históricos Nacionais. Entretanto, na conjuntura atual, a natureza das informações, em grande maioria armazenadas em planilhas e em banco de dados isolados, dificulta o processo de consolidação das informações, fato 
+que impede a construção da rede de proteção baseada nos recursos e tecnologias atualmente adotados, pois demandaria o aporte considerável de recursos financeiros e humanos sem ganhos no processo. O órgão se manteria refém da demora na produção de informações decorrente do intervalo entre ação e recepção das respostas, ou seja, entre a percepção do problema e sua solução.
+
+Apesar do fato de os processos da metodologia de cadastro, normatização de sítios urbanos tombados e fiscalização de bens imóveis já fazerem parte da realidade das Superintendências e Escritórios Técnicos, o processo manual de suporte e gestão dos dados torna a execução precária e morosa.
+
+Tendo em vista a dificuldade que o processo manual acarreta, o IPHAN decidiu contratar uma empresa de software para desenvolver uma solução que pudesse automatizar o processo de trabalho decorrente da metodologia de inventário, cadastro, normatização, fiscalização, planejamento e análise e gestão do patrimônio material. Esta solução de software foi concebida sobre a denominação de Sistema Integrado de Conhecimento e Gestão (SICG) que foi construído em Java, durante 24 \textit{sprints}, utilizando \textit{frameworks} como VRaptor, Hibernate formado por 7 módulos:
+
+\begin{itemize}
+\item Módulo de Conhecimento;
+\item Módulo de Análise e Gestão;
+\item Módulo de Cadastro;
+\item Módulo de Administração de Usuários;
+\item Módulo de Fiscalização;
+\item Módulo de Cadastro Auxiliares;
+\item Módulo de Relatórios Adicionais.
+\end{itemize}
+
+
+\subsection{Metodologia de Trabalho}
+
+\textbf{Forma de Encaminhamento das Ordens de Serviço}
+
+Toda ordem de serviço era repassada pessoalmente ao preposto da contratada.
+
+\textbf{Parelização das Atividades}
+
+As atividades do processo de gestão do contrato (Preparado, OS Aberta, Homologando e Pronto) eram paralelizadas. Por exemplo, enquanto uma ordem de serviço estava na etapa de homologação, outra ordem de serviço podia ser preparada, evitando que o fluxo do processo parasse e houvesse desperdício. 
+
+\textbf{Forma de Pagamento}
+
+O IPHAN dividiu a forma de pagamento da contratada em percentuais, de acordo com a fase, valorizando a fase de execução, como ilustrado na Tab. (\ref{remuneracao}). Cada fase
+é composta por \textit{sprints} e para cada \textit{sprint} foi aberta uma ordem de serviço. O pagamento era realizado apenas para as funcionalidades das ordens de serviços que fossem homologadas no ateste técnico e negocial.
+
+
+\begin{table}[htpb]
+\center
+\footnotesize
+\begin{tabular}{|p{3cm}|p{3cm}|}
+  \hline
+   \textbf{Fase} & \textbf{Percentual de Pagamento}\\
+    \hline
+   Planejamento (1 vez) & 5\%\\
+   \hline    
+   Execução (n vezes) & 75\%\\
+    \hline
+   Implantação (1 vez) & 10\%\\
+   \hline
+   Encerramento (1 vez) & 10\%\\
+   \hline
+\end{tabular}
+\caption{Modelo de Remuneração do projeto SICG}
+\label{remuneracao}
+\end{table}
+
+
+\textbf{Ciclos}
+
+Todo o sistema foi desenvolvido de forma iterativa e incremental, por meio de ciclos, ao longo de toda a vigência contratual, até sua conclusão total. O desenvolvimento e, por consequência, o repasse de conhecimento à contratada será feito por ciclos de planejamento e reuniões de levantamento de requisitos e aprendizado. Cada ciclo tem duração de 2 a 4 semanas.
+
+O Ciclo de Planejamento (\textit{Sprint} 0) tinha como objetivo o planejamento de todo o projeto.
+
+Os Ciclo de Desenvolvimento (\textit{Sprints} de 1 a 24) tinha como objetivo o desenvolvimento do sistema.
+
+O Ciclo de Implantação (Penúltima \textit{Sprint}) tinha como objetivo a implantação do sistema.
+
+O Ciclo de Encerramento (Última \textit{Sprint}) tinha como objetivo o treinamento dos seus usuários e o encerramento do projeto.
+
+\textbf{Reuniões}
+
+Cada ciclo teve uma Reunião de Planejamento no início do mesmo e uma Reunião de Encerramento ao final do mesmo.
+
+Na Reunião de Planejamento, a Contratada apresentou à Contratante uma proposta de Ordem de Serviço para o ciclo em planejamento. A Contratante emitiu parecer sobre a proposta. Aprovada a proposta, a Contratante, por meio de Ordem de Serviço, autorizou a Contratada a executar o ciclo planejado.
+
+Na Reunião de Encerramento, a Contratada entregou e apresentou à Contratante o conjunto de produtos resultantes da execução do respectivo ciclo.
+
+Os produtos entregues pela Contratada tinham um prazo de no máximo um ciclo para serem homologados pela Contratante.
