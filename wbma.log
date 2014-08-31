@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.1)  27 AUG 2014 17:55
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.1)  31 AUG 2014 10:55
 entering extended mode
 **C:/Users/Aline/Documents/GitHub/ArtigoWBMA/wbma.tex
 (C:/Users/Aline/Documents/GitHub/ArtigoWBMA/wbma.tex
@@ -693,6 +693,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 
+Underfull \hbox (badness 6691) in paragraph at lines 36--36
+[]\OT1/ptm/m/n/10 quantidade de or-dens de servi[]o de
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 37--37
+\OT1/ptm/m/it/10 ware \OT1/ptm/m/n/10 que ti-ve-ram en-trega de \OT1/ptm/m/it/1
+0 soft-ware
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 39--39
+[]\OT1/ptm/m/n/10 Qual a quan-ti-dade de or-dens de servi[]o que
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 39--39
+\OT1/ptm/m/n/10 n[]ao teve en-trega de \OT1/ptm/m/it/10 soft-ware \OT1/ptm/m/n/
+10 fun-ci-o-nal e de
+ []
+
+
 Overfull \hbox (3.06767pt too wide) in paragraph at lines 43--43
 []\OT1/ptm/m/n/10 QE10.| 
  []
@@ -703,7 +725,7 @@ Overfull \hbox (3.06767pt too wide) in paragraph at lines 44--44
  []
 
 
-Overfull \hbox (58.76225pt too wide) in paragraph at lines 31--46
+Overfull \hbox (1.85674pt too wide) in paragraph at lines 31--46
  [] 
  []
 
@@ -719,7 +741,7 @@ Overfull \hbox (3.06767pt too wide) in paragraph at lines 62--62
  []
 
 
-Overfull \hbox (58.76225pt too wide) in paragraph at lines 59--64
+Overfull \hbox (1.85675pt too wide) in paragraph at lines 59--64
  [] 
  []
 
@@ -826,13 +848,10 @@ File: figuras/percepcaoqualidade.png Graphic file (type png)
 Package pdftex.def Info: figuras/percepcaoqualidade.png used on input line 152.
 
 (pdftex.def)             Requested size: 253.47023pt x 152.29292pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10]) (C:\Users\Aline\Documents\GitHub\ArtigoWBMA\7-conclusao.tex [11 <C:/Users
-/Aline/Documents/GitHub/ArtigoWBMA/figuras/pizzatotal.png> <C:/Users/Aline/Docu
-ments/GitHub/ArtigoWBMA/figuras/percepcaoqualidade.png>])
+ [10])
+(C:\Users\Aline\Documents\GitHub\ArtigoWBMA\7-conclusao.tex [11 <C:/Users/Aline
+/Documents/GitHub/ArtigoWBMA/figuras/pizzatotal.png> <C:/Users/Aline/Documents/
+GitHub/ArtigoWBMA/figuras/percepcaoqualidade.png>])
 (C:\Users\Aline\Documents\GitHub\ArtigoWBMA\wbma.bbl
 LaTeX Font Info:    Calculating math sizes for size <10.79993> on input line 1.
 
@@ -864,7 +883,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  6007 strings out of 493921
  86443 string characters out of 3144877
- 174052 words of memory out of 3000000
+ 174046 words of memory out of 3000000
  9120 multiletter control sequences out of 15000+200000
  36449 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -878,7 +897,7 @@ iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 e1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on wbma.pdf (12 pages, 185690 bytes).
+Output written on wbma.pdf (12 pages, 185696 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

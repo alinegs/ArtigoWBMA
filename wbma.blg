@@ -3,9 +3,17 @@ The style file: sbc.bst
 Database file #1: myReferences.bib
 Warning--entry type for "manifesto" isn't style-file defined
 --line 181 of file myReferences.bib
-Warning--to sort, need author or key in TCU:2013
+I was expecting an "="---line 221 of file myReferences.bib
+ :  
+ :  Author = {B. L. F. Saldanha},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author, editor, or key in administracao
+Warning--empty author and editor in administracao
+Warning--empty year in administracao
+Warning--empty title in administracao
+Warning--empty publisher in administracao
 Warning--empty journal in gqm
 Warning--empty publisher in RTMAC
-Warning--empty publisher in administracao
 Warning--empty publisher in yin
-(There were 6 warnings)
+(There was 1 error message)

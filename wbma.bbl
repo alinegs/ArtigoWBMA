@@ -1,13 +1,16 @@
 \begin{thebibliography}{}
 
-\bibitem[TCU 2013]{TCU:2013}
- (2013).
-\newblock {\em Acórdão nº 2314}.
-\newblock Tribunal de Contas da Uni\~ao, Brasília, Brasil.
+\bibitem[adm ]{administracao}
+
 
 \bibitem[Basili and Rombach 1994]{gqm}
 Basili, V.~R. and Rombach, H.~D. (1994).
 \newblock {Goal Question Metric Paradigm}.
+
+\bibitem[BRASIL 2013]{TCU:2013}
+BRASIL (2013).
+\newblock {\em Acórdão nº 2314}.
+\newblock Tribunal de Contas da Uni\~ao, Brasília, Brasil.
 
 \bibitem[Cunningham 2001]{manifesto}
 Cunningham, W. (2001).
@@ -32,10 +35,6 @@ Melo, C., Santos, V.~A., Corbucci, H., Katayama, E., Goldman, A., and Kon, F.
   (2012).
 \newblock {\em Métodos ágeis no Brasil: estado da prática em times e
   organizações}.
-
-\bibitem[Saldanha 2005]{administracao}
-Saldanha, B. L.~F. (2005).
-\newblock {\em O Gerenciamento e suas origens}.
 
 \bibitem[Yin 2010]{yin}
 Yin, R.~K. (2010).
