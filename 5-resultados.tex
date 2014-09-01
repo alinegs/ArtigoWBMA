@@ -92,7 +92,7 @@ Ainda, pelos dados coletados neste estudo, não foi evidenciada a utilização d
 
 \subsection[Efeitos sobre a satisfação do cliente]{Efeitos sobre a satisfação do cliente}
 
-O cliente do projeto SICG é representado pelo papel de \textit{Product Owner}, que também atuou como gestor do contrato, e por todos os envolvidos no projeto por parte do IPHAN. Este nunca havia participado anteriormente de um projeto onde a gestão do contrato era realizada com o uso de métodos ágeis, portanto, a experiência dos envolvidos no projeto com esses métodos era pouca. Para coletar a opinião do cliente acerca das questões específicas QE10  e QE11 foi aplicado o questionário encontrado no Apêndice A.
+O cliente do projeto SICG é representado pelo papel de \textit{Product Owner}, que também atuou como gestor do contrato, e por todos os envolvidos no projeto por parte do IPHAN. Este nunca havia participado anteriormente de um projeto onde a gestão do contrato era realizada com o uso de métodos ágeis, portanto, a experiência dos envolvidos no projeto com esses métodos era pouca. Para coletar a opinião do cliente acerca das questões específicas QE10  e QE11 foi aplicado o questionário.
 
 A Figura \ref{visibilidade} apresenta a visibilidade do processo de todos os envolvidos no projeto por parte do IPHAN. Cerca de 80\% dos envolvidos no projeto considerou a visibilidade do processo como "Alta", dentre eles o gestor do contrato. A Figura \ref{satisfacao} apresenta o resultado de satisfação do IPHAN com relação ao produto entregue. De forma unânime foi considerado como "Satisfeito" o produto entregue pela empresa contratada. 
 
@@ -116,23 +116,18 @@ com os intervalos: muito frequente, frequente, pouco frequente e não frequente.
 intervalos de frequência foram interpretados em rótulos qualitativos: excelente, bom, regular e ruim.
 
 
-Os intervalos utilizados para se chegar as esses indicadores de qualidade foram retirados do
-estudo de Meirelles \cite{Meirelles2013}, para esse trabalho foram utilizados os intervalos encontrados para C++ e Java. É importante ressaltar que quando apresentarmos o resultado da análise sobre o código fonte deste estudo de caso e dissermos que o código fonte tem um rótulo "Excelente" ou "Ruim" para determinada métrica, siginifica dizer que, esse código fonte é "Excelente" ou "Ruim" em comparação ao melhor projeto de \textit{software} livre selecionado por Meirelles \cite{Meirelles2013} na Linguagem Java, que foi o Open JDK8.
+As medidas definidas nos intervalos utilizados para se chegar as esses indicadores de qualidade foram retirados do
+estudo de Meirelles \cite{Meirelles2013}. Para este trabalho foram utilizados os intervalos encontrados para a linguagem Java, uma vez que o o objeto desta análise é um código fonte escrito em Java.
+
+É importante ressaltar que quando apresentarmos o resultado da análise sobre o código fonte deste estudo de caso e dissermos que o código fonte tem um rótulo "Excelente" ou "Ruim" para determinada métrica, siginifica dizer que, esse código fonte é "Excelente" ou "Ruim" em comparação ao melhor projeto de \textit{software} livre selecionado por Meirelles \cite{Meirelles2013} na Linguagem Java, que foi o Open JDK8.
 
 
-
-De forma geral, o processo realizado para a análise do código fonte do SICG consistiu em: i) executar a ferramenta de análise estática de código fonte, Analizo, sobre o código fonte do projeto SICG; ii) Após o passo i o resultado será armazenado em um arquivo .csv \footnote{Comma-separated values (ou CSV) é um formato de arquivo que armazena dados tabelados} com as medidas númericos das métricas selecionadas; iii) transformar o arquivo .csv em json\footnote{JSON (JavaScript Object Notation) é um modelo para armazenamento e transmissão de informações no formato texto, tem sido bastante utilizado por aplicações Web devido a sua capacidade de estruturar informações de uma forma bem mais compacta, tornando mais rápido o parsing dessas informações.} ; iv) e por fim, processar esse arquivo em uma solução desenvolvida em um ambiente de Datawarehousing, utilizando a ferramenta Pentaho. Ao final desse processo, temos como resultado os gráficos para análise. 
+De forma geral, o processo realizado para a análise do código fonte do SICG consistiu em: i) executar a ferramenta de análise estática de código fonte, Analizo, sobre o código fonte do projeto SICG; ii) Após o passo i o resultado será armazenado em um arquivo .csv \footnote{Comma-separated values (ou CSV) é um formato de arquivo que armazena dados tabelados} com as medidas númericos das métricas selecionadas; iii) transformar o arquivo .csv em json\footnote{JSON (JavaScript Object Notation) é um modelo para armazenamento e transmissão de informações no formato texto, tem sido bastante utilizado por aplicações Web devido a sua capacidade de estruturar informações de uma forma bem mais compacta, tornando mais rápido o parsing dessas informações.} ; iv) e por fim, processar esse arquivo em uma solução desenvolvida em um ambiente de Datawarehousing, utilizando a ferramenta Pentaho. 
 
 A fim de responder a questão específica QE12 são mostrados a seguir os resultados do processamento do código fonte do projeto SICG no que diz respeito a qualidade interna do produto ao longo das \textit{sprints} do projeto, 
 de acordo com as 12 métricas selecionadas: LOC (Lines of Code), ACCM (Average Cyclomatic Complexity per Method), AMLOC (Average Method Lines of Code), ACC (Afferent Connections per Class), ANPM (Average Number of Parameters per Method),
 CBO (Coupling Between Objects), DIT(Depth of Inheritance Tree), LCOM4 (Lack of Cohesion in Methods), NOC (Number of Children), NOM (Number of Methods), NPA (Number of Public Attributes) e RFC (Response For a Class).
 
-Foram identificados cenários de limpeza de código fonte a partir dos resultados das métricas citadas anteriormente. Dentre os tipos de cenários de limpeza identificados os mais incidentes foram: 
-Compexidade Estrutural, Classe Pouco Coesa e Interface dos Métodos. Outros tipos de cenários de limpeza como Classe com Muita Exposição, Classe
-com Muitos Filhos e Classe com Método Muito Grande também foram identificados, porém, com menos frequência.
-
-Dentre esses cenários identificados, o cenário de limpeza de código fonte Complexidade Estrutural é aquele que o tratamento deveria
-ser priorizado, pois ele correspondeu de 55\% a 68\% da quantidade total de cenários identificados.
 
 A \textit{Sprint} 24 é a última \textit{sprint} do projeto e, portanto, é nela que foi entregue o código fonte final. Conforme a Fig. \ref{pizzatotal}, na análise da qualidade do código fonte dessa \textit{sprint}, observamos uma predominância do intervalo de qualidade "Excelente", o qual acontece em 7 métricas. O intervalo de qualidade "Bom" acontece em 3 métricas. O intervalo de qualidade "Regular" acontece em 1 métrica. E o intervalo de qualidade "Ruim" acontece em 1 métrica.
 
@@ -143,17 +138,18 @@ A \textit{Sprint} 24 é a última \textit{sprint} do projeto e, portanto, é nel
 		\label{pizzatotal}
 \end{figure}
 
+Entretanto, segundo Meirelles, a análise de métricas de código fonte de forma isolada pode levar em interpretações errôneas. Além disso, por meio da utilização de métricas de código fonte é possível identificar partes do código que podem ser melhoradas, as quais podem ser mapeadas em cenários de limpeza. Para realização deste mapeamento foram utilizados como base os cenários de limpeza propostos nos estudos de Machini \citeonline{Machini2010}, que por sua vez, foram implementamentados na solução de Datawarehousing.
 
-Foi analisada ainda a percepção da qualidade do código fonte do SICG segundo os envolvidos no projeto (Scrum Master, Product Owner, Gestor do Contrato, Coordenador do Projeto, Fiscal Técnico e Desenvolvedores). Como ilustrado na figura \ref{percepcaoqualidade}, cerca de 66\% dos envolvidos consideraram  o intervalo de qualidade do código como "Excelente" e os demais consideraram
+Dentre os tipos de cenários de limpeza identificados, os mais incidentes foram: 
+Compexidade Estrutural, Classe Pouco Coesa e Interface dos Métodos. Outros tipos de cenários de limpeza como Classe com Muita Exposição, Classe
+com Muitos Filhos e Classe com Método Muito Grande também foram identificados, porém, com menos frequência.
+
+O cenário de limpeza de código fonte Complexidade Estrutural é aquele que o tratamento deveria
+ser priorizado, pois ele correspondeu de 55\% a 68\% da quantidade total de cenários identificados. Essa informação permitiria, por exemplo, ao fiscal técnico, priorizar atividades de de refatoração junto  a contratada, ou até mesmo decidir por não realizar a homologação. 
+
+Foi analisada ainda a percepção da qualidade do código fonte do SICG segundo os envolvidos no projeto (Scrum Master, Product Owner, Gestor do Contrato, Coordenador do Projeto, Fiscal Técnico e Desenvolvedores), onde 66\% dos envolvidos consideraram  o intervalo de qualidade do código como "Excelente" e os demais consideraram
 o intervalo de qualidade como "Bom".
-
-\begin{figure}[h]
-		\centering
-			\includegraphics[scale=0.7]{figuras/percepcaoqualidade.png}
-		\caption{Nível de Percepção da Qualidade do Código Fonte}
-		\label{percepcaoqualidade}
-\end{figure}
 
 Assim, no que diz respeito a análise estática do código realizada, a qualidade interna do produto pode ser considerada satisfatória ao compararmos com o melhor \textit{software} livre encontrado na linguagem de programação Java, retirado do estudo de Meirelles. Além disso, há uma convergência com a também percepção satisfatória na dos envolvidos no projeto SICG, embora não tenhamos encontrado evidências de que o IPHAN realizava análise sistemática sobre tais métricas de qualidade de produto.
 
-O fato de padrões de qualidade de métricas de código fonte não terem sido específicados no contrato e o fato de uma análise de qualidade de código de fonte não ter sido realizada durante os ciclos do projeto figuraram como risco ao projeto, uma vez que poderia ter comprometido o sucesso e a manutenibilidade do sistema. Al[em disso, não evidenciamos a entrega de uma suíte de testes automatizada, o que poderia ter aumentado a qualidade interna do produto assim como sua segurança e robustez no ateste técnico de uma ordem de serviço.
+O fato de padrões de qualidade de métricas de código fonte não terem sido específicados no contrato e o fato de uma análise de qualidade de código de fonte não ter sido realizada durante os ciclos do projeto figuraram como risco ao projeto, uma vez que poderia ter comprometido o sucesso e a manutenibilidade do sistema. Além disso, não evidenciamos a entrega de uma suíte de testes automatizada, o que poderia ter aumentado a qualidade interna do produto assim como sua segurança e robustez no ateste técnico de uma ordem de serviço.

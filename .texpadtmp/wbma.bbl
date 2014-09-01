@@ -1,0 +1,48 @@
+\begin{thebibliography}{}
+
+\bibitem[adm ]{administracao}
+
+
+\bibitem[Basili and Rombach 1994]{gqm}
+Basili, V.~R. and Rombach, H.~D. (1994).
+\newblock {Goal Question Metric Paradigm}.
+
+\bibitem[BRASIL 2013]{TCU:2013}
+BRASIL (2013).
+\newblock {\em Acórdão nº 2314}.
+\newblock Tribunal de Contas da Uni\~ao, Brasília, Brasil.
+
+\bibitem[Cunningham 2001]{manifesto}
+Cunningham, W. (2001).
+
+\bibitem[{ISO/IEC 25023} 2011]{ISO25023}
+{ISO/IEC 25023} (2011).
+\newblock {ISO/IEC} 25023: Systems and software engineering - systems and
+  software quality requirements and evaluation (square) - measurement of system
+  and software product quality.
+\newblock International Standard 25023, International Organization for
+  Standardization and International Electrotechnical Commission.
+
+\bibitem[Machini et~al. 2010]{Machini2010}
+Machini, J.~a., Almeida, L., Kon, F., and Meirelles, P. R.~M. (2010).
+\newblock {C\'{o}digo Limpo e seu Mapeamento para M\'{e}tricas de
+  C\'{o}digo-Fonte}.
+
+\bibitem[Meirelles 2013]{Meirelles2013}
+Meirelles, P. R.~M. (2013).
+\newblock {\em Monitoramento de métricas de código-fonte em projetos de
+  software livre}.
+\newblock PhD thesis, Instituto de Matemática e Estátistica -- Universidade
+  de São Paulo (IME/USP).
+
+\bibitem[Melo et~al. 2012]{RTMAC}
+Melo, C., Santos, V.~A., Corbucci, H., Katayama, E., Goldman, A., and Kon, F.
+  (2012).
+\newblock {\em Métodos ágeis no Brasil: estado da prática em times e
+  organizações}.
+
+\bibitem[Yin 2010]{yin}
+Yin, R.~K. (2010).
+\newblock {\em {Estudo de Caso - Planejamento e Métodos}}.
+
+\end{thebibliography}
